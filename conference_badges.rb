@@ -5,7 +5,7 @@ end
 
 def batch_badge_creator(name_list)
   counter = 0 
-  while   
+  while counter < 
   
 end
 
