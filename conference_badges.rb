@@ -1,9 +1,11 @@
 # Write your code here.
 def badge_maker(name)
-  put "Hello my name is #{name}"
+  "Hello my name is #{name}"
 end
 
 def batch_badge_creator(name_list)
+  counter = 0 
+  while   
   
 end
 
