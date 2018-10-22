@@ -5,8 +5,8 @@ end
 
 def batch_badge_creator(name_list)
   counter = 0 
-  while counter < 
-  
+  while counter < name_list.length
+  badge_maker
 end
 
 def assign_rooms
