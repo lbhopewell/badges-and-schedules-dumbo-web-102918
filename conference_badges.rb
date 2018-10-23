@@ -6,8 +6,8 @@ end
 def batch_badge_creator(attendees)
   counter = 0 
   badge_list = []
-    while counter < name_list.length
-    badge_list << badge_maker(att[counter])
+    while counter < attnedees.length
+    badge_list << badge_maker(attendees[counter])
     counter += 1 
     end
   badge_list
