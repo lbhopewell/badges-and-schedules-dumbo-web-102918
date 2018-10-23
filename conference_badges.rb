@@ -15,6 +15,8 @@ end
 
 def assign_rooms(attendees)
   while 
+  
+  
 end
 
 def printer
