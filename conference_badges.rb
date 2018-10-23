@@ -17,7 +17,7 @@ def assign_rooms(attendees)
   room_assignments = []
   counter = 0 
     while counter < attendees.length
-    room_assignments << "Hello, #{attendees[counter]} You'll be assigned to room #{counter+1}!"
+    room_assignments << "Hello, #{attendees[counter]}! You'll be assigned to room #{counter+1}!"
     counter += 1 
     end
     room_assignments
