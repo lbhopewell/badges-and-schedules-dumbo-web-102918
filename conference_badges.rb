@@ -3,11 +3,11 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(name_list)
+def batch_badge_creator(attendees)
   counter = 0 
   badge_list = []
     while counter < name_list.length
-    badge_list << badge_maker(name.list[counter])
+    badge_list << badge_maker(att[counter])
     counter += 1 
     end
   badge_list
