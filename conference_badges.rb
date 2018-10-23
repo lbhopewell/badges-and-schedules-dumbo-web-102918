@@ -14,9 +14,12 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  while 
-  
-  
+  rooms = []
+  counter = 0 
+    while  counter < attendees.length
+    rooms << "Hello, #{attendees[counter]} You'll be assigned to room #{counter+1}!"
+    counter += 1 
+    end
 end
 
 def printer
