@@ -24,6 +24,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  counter = 0 
   
   puts badges
   puts room_assignments
